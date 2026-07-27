@@ -1,0 +1,60 @@
+.dotted {
+    /* border-style: dotted; */
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: brown;
+}
+
+.dashed {
+    /* border-style: dashed; */
+
+    /* 
+        1. border-width;
+        2. border-style; (required)
+        3. border-color;
+    */
+    border: 5px dashed red;
+}
+
+.solid {
+    border-style: solid;
+    border-width: 5px 2px 10px 2px;
+    border-color: aqua;
+}
+
+.double {
+    border-style: double;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.outset {
+    border-style: outset;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+}
+
+.mix {
+    border-style: dotted dashed solid double;
+}

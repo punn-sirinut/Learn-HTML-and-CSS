@@ -1,0 +1,22 @@
+div {
+    /* width: 500px; */
+    height: 300px;
+    background-color: burlywood;
+    color: #000;
+    text-align: justify;
+}
+
+p {
+    text-decoration: underline red double 5px;
+    /* text-decoration-line: overline; */
+    /* text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-decoration-style: dashed; */
+    text-transform: capitalize;
+    text-indent: 50px;
+    /* letter-spacing: 10px; */
+    /* line-height: 0.5; */
+    word-spacing: 20px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 5px red;
+}

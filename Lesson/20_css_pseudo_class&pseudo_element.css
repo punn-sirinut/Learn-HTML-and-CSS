@@ -1,0 +1,21 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: yellow;
+    /* padding-bottom: 2000px; */
+    position: relative;
+}
+
+/* Pseudo-class */
+
+a:hover {
+    background-color: blue;
+}
+
+/* Pseudo-element */
+
+p::first-line {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+body {
+
+    /* 
+       1. background-color
+       2. background-image
+       3. background-repeat
+       4. background-attachment
+       5. background-position 
+    */
+
+    background: url("https://as1.ftcdn.net/v2/jpg/01/45/50/06/1000_F_145500629_fGpirySCa7w4BPGJcLdu8PricC9kaYe6.jpg") no-repeat fixed center;
+    background-size: cover;
+
+    /* background-color: burlywood;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/01/45/50/06/1000_F_145500629_fGpirySCa7w4BPGJcLdu8PricC9kaYe6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+
+
+
+}
+.mybox {
+    width: 500px;
+    height: 200px;
+    background-image: url("img/mirror-image-snow-capped-mountain-peaks-reflected-in-pristine-lake-free-photo.jpg");
+    background-size: cover;
+}
